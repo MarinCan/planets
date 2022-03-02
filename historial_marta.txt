@@ -1,0 +1,500 @@
+  115  ls
+  116  git checkout javascript
+  117  ls
+  118  git st
+  119  git status
+  120  git checkout master
+  121  git log -p -1
+  122  git status
+  123  git checkout css
+  124  git status
+  125  git add .
+  126  git commit -m "Cambiamos tamaño styles.css"
+  127  git checkout master
+  128  history
+  129  history > comandos.txt
+  130  git checkout -b hotfix
+  131  ls
+  132  git status
+  133  git add .
+  134  git add .
+  135  git checkout master
+  136  pwd
+  137  git init
+  138  git status
+  139  git add style.css
+  140  git status
+  141  git add index.html
+  142  git status
+  143  git status
+  144  git add script.js
+  145  git status
+  146  git commit 
+  147  git commit
+  148  git status
+  149  git rm script.js
+  150  git status
+  151  git rm style.css
+  152  git status
+  153  git commit
+  154  git commit -m "Se crea el html para el proyecto"
+  155  git status
+  156  git log
+  157  git status
+  158  git add style.css
+  159  git status
+  160  git commit -m "Se crea el fichero css"
+  161  git status
+  162  git add script.js
+  163  git commit -m "Se crea un js"
+  164  git log
+  165  git shortlog
+  166  git status
+  167  git status
+  168  git add index.html 
+  169  git status
+  170  git commit -m "se escribe el head del index.html"
+  171  git shortlog
+  172  git status
+  173  git add index.html 
+  174  git status
+  175  git commit -m "se linkea el html con el css"
+  176  git shortlog
+  177  git status
+  178  git add script.js 
+  179  git commit -m "creada la primera funcion js"
+  180  git status
+  181  git shortlog
+  182  git branch
+  183  git status
+  184  git add .
+  185  git status
+  186  git commit -m "creada la seccion perretes en html"
+  187  git status
+  188  git add .
+  189  git commit -m "creada la seccion gatetes en html"
+  190  git status
+  191  git add .
+  192  git status
+  193  git restore --staged .
+  194  git status
+  195  git status
+  196  git add .
+  197  git status
+  198  git commit -m "creada una nueva carpeta con imagenes"
+  199  git shortlog
+  200  git status
+  201  git add .
+  202  git status
+  203  git commit -m "Se añaden las imagenes al html"
+  204  git add .
+  205  git commit -m "Se cambian los títulos de las secciones"
+  206  git branch estilo
+  207  git branchs
+  208  git branch
+  209  git checkout estilo 
+  210  git branch
+  211  git status
+  212  git add .
+  213  git commit -m "propiedades estilos generales"
+  214  git add .
+  215  git commit -m "color fondo: azul"
+  216  git checkout master
+  217  git status
+  218  git add .
+  219  git commit -m "creada la seccion general animales"
+  220  git shortlog
+  221  git checkout estilo 
+  222  git checkout master
+  223  git merge estilo 
+  224  git branch
+  225  git checkout estilo 
+  226  git checkout master
+  227  git checkout estilo 
+  228  git status
+  229  git add .
+  230  git commit -m "Actualizar a mano html --> PREGUNTAR LUISgit add ."
+  231  git checkout master
+  232  git checkout estilo 
+  233  git shortlog
+  234  git status
+  235  git add .
+  236  git commit -m "estilos seccion ppal animales"
+  237  git add .
+  238  git commit -m "asignacion ids para las imagenes"
+  239  git add .
+  240  git commit -m "reasignacion de ids"
+  241  git shortlog
+  242  git add .
+  243  git commit -m "primera prueba tamaño img"
+  244  git add .
+  245  git commit -m "estilo secciones perretes y gatetes"
+  246  git add .
+  247  git commit -m "Cambio color fondo seccion ppal"
+  248  git add .
+  249  git commit -m "Cambio borde sub-secciones"
+  250  git shortlog
+  251  git add .
+  252  git commit -m "arreglo de fallos color de fondo"
+  253  git add .
+  254  git commit -m "arreglo de titulos: centro"
+  255  git add .
+  256  git commit -m "arreglo de margenes: p y h2"
+  257  git shortlog
+  258  git branch
+  259  git checkout master
+  260  git branch
+  261  git pull
+  262  git fetch
+  263  git pull origin master
+  264  git merge estilos
+  265  git merge estilo
+  266  git status
+  267  git add .
+  268  git status
+  269  git commit -m "merge y arreglo de conflicto en el html"
+  270  git shortlog
+  271  git branch
+  272  git merge estilo
+  273  git add .
+  274  git commit -m "creado boton en el html"
+  275  git status
+  276  git add .
+  277  git commit -m "wut"
+  278  git shortlog
+  279  git status
+  280  git add .
+  281  git commit -m "cambio color boton"
+  282  git add .
+  283  git commit -m "rediseño boton"
+  284  git add .
+  285  git commit -m "rediseño boton 2: recolocacion y tamaño"
+  286  git add .
+  287  git commit -m "rediseño boton 3: redondeo y borde"
+  288  git add .
+  289  git commit -m "rediseño boton 4: sombra"
+  290  git add .
+  291  git commit -m "rediseño boton: pointer y transition"
+  292  git add .
+  293  git commit -m "rediseño boton: hover"
+  294  git shortlog 
+  295  git branch script
+  296  git branch
+  297  git checkout script
+  298  git add .
+  299  git commit -m "creacion funcion saludo"
+  300  git add .
+  301  git commit -m "modificacion funcion saludo"
+  302  git add .
+  303  git commit -m "funcion saludo ahora pide el nombre del usuario"
+  304  git checkout master
+  305  git cranch
+  306  git branch
+  307  git merge script
+  308  git add .
+  309  git commit -m "linkeado el script.js al html"
+  310  git add .
+  311  git commit -m "funcion saludo añadida al boton en el html"
+  312  git add .
+  313  git commit -m "solucion error favicon de la consola"
+  314  git shortlog
+  315  git branch estilo2
+  316  git branch
+  317  git checkout estilo2
+  318  git add .
+  319  git commit -m "estilo 2: fondo rosa"
+  320  git add .
+  321  git commit -m "estilo 2: fondo secciones blanco"
+  322  git add .
+  323  git commit -m "estilo 2: fondo boton blanco"
+  324  git add .
+  325  git commit -m "estilo 2: cambio saludo script.js"
+  326  git shortlog
+  327  git add .
+  328  git commit -m "imagen conejo guardada en carpeta"
+  329  git add .
+  330  git commit -m "Cambio titulo e imagen de gato a conejo"
+  331  git add .
+  332  git commit -m "Arreglo titulo alt"
+  333  git add .
+  334  git commit -m "Actualizacion id gatetes a bichetes
+  335  git shortlog
+  336  "
+  337  git shortlog
+  338  git checkout master
+  339  git shortlog
+  340  git branch
+  341  git checkout estilo2
+  342  git shortlog
+  343  git checkout master
+  344  git checkout estilo2
+  345  git checkout master
+  346  git branch
+  347  git checkout estilo2
+  348  git checkout master
+  349  git checkout estilo2
+  350  git checkout estilo2
+  351  git checkout master
+  352  git checkout estilo2
+  353  git checkout master
+  354  git checkout estilo2
+  355  git checkout master
+  356  git checkout estilo2
+  357  git checkout master
+  358  git branch
+  359  git checkout estilo2
+  360  git checkout master
+  361  git checkout estilo2
+  362  git checkout master
+  363  git checkout estilo2
+  364  git checkout master
+  365  git checkout estilo2
+  366  git log
+  367  git branch
+  368  git log --pretty=oneline
+  369  gitk
+  370  git checkout master
+  371  git checkout estilo2
+  372  git checkout master
+  373  git checkout estilo2
+  374  git checkout master
+  375  git status
+  376  git add .
+  377  git commit
+  378  git status
+  379  git tag Prueba_etiqueta -m "Prueba de etiqueta en ultimo commit"
+  380  git log --pretty=oneline
+  381  git checkout estilo2
+  382  git checkout master
+  383  git checkout estilo2
+  384  git checkout master
+  385  git checkout estilo2
+  386  git checkout master
+  387  git shortlog
+  388  git log --pretty=oneline
+  389  q
+  390  git log --pretty=oneline
+  391  git tag -a Boton 1e20 -m "Se empieza a configurar el boton"
+  392  git log --pretty=oneline
+  393  git tag -a Boton 5043 -m "Preguntar a Luis"
+  394  git log --pretty=oneline
+  395  git tag -a problemilla 5043 -m "Preguntar a Luis"
+  396  git log --pretty=oneline
+  397  git shortlog
+  398  git checkout estilo2
+  399  git shortlog
+  400  git log --pretty=oneline
+  401  git checkout master
+  402  git checkout master
+  403  git checkout estilo2
+  404  git checkout master
+  405  history
+  406  history > comandos2.txt
+  407  git init
+  408  echo "# Prueba-repositorio" >> README.md
+  409  add README.md
+  410  git add README.md
+  411  commit -m "first commit"
+  412  git commit -m "first commit"
+  413  git branch -M main
+  414  git remote add origin https://github.com/MarinCan/Prueba-repositorio.git
+  415  git push -u origin main
+  416  cd ~
+  417  cd -la
+  418  ls -la
+  419  cd ~/.ssh
+  420  ssh-keygen
+  421  cd .ssh/
+  422  ls
+  423  cat id_rsa.pub
+  424  sst -T git@github.com
+  425  ssh -T git@github.com
+  426  git remove -v
+  427  git remote -v
+  428  git remote rm origin_ssh
+  429  git remote -v
+  430  it remote add
+  431  git remote add origin git@github.com:MarinCan/Prueba_repositorio.git
+  432  git remote -v
+  433  git remote -u
+  434  git remote -u origin main
+  435  git remote -u origin master
+  436  git push -u origin master
+  437  git push -u origin main
+  438  git remote -v
+  439  git remote rm origin
+  440  git remote -v
+  441  git remote add origin git@github.com:MarinCan/Prueba_repositorio.git
+  442  git remote -v
+  443  git push -u origin main
+  444  git remote -v
+  445  git remote -v
+  446  git push -u origin main
+  447  cd ..
+  448  git status
+  449  mkdir fork_project
+  450  cd fork_project/
+  451  git clone git@github.com:MarinCan/proyecto-web.git
+  452  git log
+  453  ls
+  454  ls -la
+  455  cd ProyectoGit/
+  456  cd proyecto-web/
+  457  git checkout -b cambios
+  458  git branch
+  459  gir diff --word-diff
+  460  git diff --word-diff
+  461  git diff -diff
+  462  git diff --diff
+  463  git commit -a -m "Necesitas cambios y tu codigo tmabien"
+  464  git status
+  465  git push origin cambios
+  466  mkdir carp && cd carp
+  467  git config --local user.name "yo"
+  468  git init
+  469  git config --local user.name "yo"
+  470  git config --local user.email "yo@outlook.es"
+  471  git config --local core.editor "nano -w"
+  472  git config -list
+  473  git config --list
+  474  git config --local --list
+  475  echo "Hoy es miercoles" > readme.txt
+  476  git status
+  477  git add .
+  478  git status
+  479  git commit
+  480  git commit -m "primer commit"
+  481  git status
+  482  git log
+  483  ls -la
+  484  git diff
+  485  git status
+  486  git diff
+  487  git diff --diff
+  488  git commit -a -m "Acepto cambios"
+  489  git status
+  490  git log
+  491  git diff
+  492  git diff --diff
+  493  git diff --staged
+  494  git log --pretty=onelog
+  495  git log --pretty=oneline
+  496  git log
+  497  git shortlog
+  498  git log
+  499  git log --pretty=oneline
+  500  mkdir planets
+  501  cd planets
+  502  git init
+  503  ls
+  504  ls -a
+  505  git status
+  506  pwd
+  507  nano mars.txt
+  508  ls
+  509  cat mars.txt
+  510  git status
+  511  git add.
+  512  git add .
+  513  git status
+  514  git commit -m "Start notes on mars as a base"
+  515  git status
+  516  git log
+  517  ls
+  518  nano mars.txt
+  519  cat mars.txt
+  520  git status
+  521  git diff
+  522  git commit -m "se añade una frase mas"
+  523  git add . 
+  524  git commit -m "Add concerns about effects of Mars' moon on Wolfman"
+  525  nano mars.txt
+  526  cat mars.txt
+  527  git diff
+  528  git add .
+  529  git diff
+  530  git status
+  531  git commit -m "Discuss concerns about Mars' climate for mummy"
+  532  git status
+  533  git log
+  534  git log -1
+  535  git diff --color-words
+  536  git log
+  537  git diff
+  538  mkdir directory
+  539  git status
+  540  git add directory
+  541  git status
+  542  nano venus.txt
+  543  git venus.txt
+  544  git add venus.txt
+  545  git commit -m "write plans to start a base on venus"
+  546  git log --format=ful
+  547  git add me.txt
+  548  nano me.txt
+  549  git add me.txt
+  550  git commit -m "update Vlad's bio" --author="Frank N. Stein <franky@monster.com>"
+  551  git log --format=full
+  552  nano mars.txt
+  553  cat mars.txt
+  554  git diff HEAD mars.txt
+  555  git diff mars.txt
+  556  git diff HEAD~1 mars.txt
+  557  git diff HEAD~2 mars.txt
+  558  git diff HEAD~3 mars.txt
+  559  git show HEAD~3 mars.txt
+  560  git diff 92f8201
+  561  git diff 92f8201 mars.txt
+  562  nano mars.txt
+  563  cat mars.txt
+  564  git status
+  565  git checkout HEAD mars.txt
+  566  cat mars.txt
+  567  git checkout 92f8201 mars.txt
+  568  cat mars.txt
+  569  git status
+  570  git checkout -f master mars.txt
+  571  git status
+  572  cat mars.txt
+  573  nano ven.txt
+  574  git add ven.txt
+  575  nano ven.txt
+  576  git commit -m "comment on ven.txt"
+  577  git checkout HEAD ven.txt
+  578  cat ven.txt
+  579  git diff HEAD~3 mars.txt
+  580  git diff f416a48 mars.txt
+  581  nano mars.txt
+  582  git diff 92f8201 mars.txt
+  583  nano mars.txt
+  584  git add .
+  585  git status
+  586  git commit -m "ult cambio"
+  587  git log
+  588  git checkout 0fe8a34 mars.txt
+  589  cat mars.txt
+  590  git log mars.txt
+  591  git log --patch mars.txt
+  592  git log --patch HEAD~3 *.txt
+  593  git log --patch HEAD~3 *.txt
+  594  mkdir results
+  595  touch a.dat b.dat c.dat results/a.out results/b.out
+  596  git status
+  597  nano .gitignore
+  598  git status
+  599  git add .
+  600  git commit -m "git ignore"
+  601  git status --ignored
+  602  git remote add origin git@github.com:MarinCan/planets.git
+  603  git remote -v
+  604  git push -u origin master
+  605  nano mars.txt
+  606  git push -u origin master
+  607  git status
+  608  git add .
+  609  git commit -m "ult cambio"
+  610  git status
+  611  git push -u origin master
+  612  git remote add broken https://url-invalid
+  613  git remote -h
+  614  history >> historial_marta.txt
